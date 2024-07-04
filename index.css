@@ -725,9 +725,9 @@ footer p {
         margin-top: 20px;
         display: block;
         background-color: rgb(251, 250, 250);
-        border: 2px solid #ffffff;
+        border: 2px solid #fafafa;
         /* Regular border */
-        box-shadow: 0 0 50px 100px rgba(255, 255, 255);
+        box-shadow: 0 0 50px 100px rgba(250, 250, 250);
         /* Spread effect */
     }
     
@@ -738,6 +738,7 @@ footer p {
     }
     
     .about {
+        margin-top: -150px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -841,3 +842,4 @@ footer p {
         /* Adjust image width to fit smaller screens */
     }
 }
+
