@@ -1,0 +1,843 @@
+.navCon {
+    background-color: #000000;
+}
+
+.me-10 {
+    margin-right: 200px;
+}
+
+body {
+    background-color: black;
+
+}
+
+.name {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: 800;
+    color: rgb(55, 61, 74);
+    font-size: 80px;
+
+}
+
+.namesec {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hi {
+    font-size: 60px;
+    color: rgb(96, 102, 118);
+}
+
+.flexheader {
+    width: 600px;
+    margin-top: 150px;
+
+}
+
+.infostu {
+    font-weight: 50;
+    letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    color: rgb(55, 61, 74);
+}
+
+.visitbtn {
+    border-radius: 40px;
+    height: 50px;
+    padding: 8px 15px;
+    background-color: blueviolet;
+    color: white;
+    border-style: none;
+    font-weight: 400;
+    border: 3px solid blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.visitbtn:hover {
+    background-color: rgb(109, 50, 163);
+    border: 3px solid rgb(176, 106, 242);
+    transform: scale(1.05);
+    /* Slightly increase the size */
+}
+
+.lightingbg {
+    background-position: center;
+    /* Center the image */
+    background-image: url('assets/bluelight.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Center the image */
+}
+
+.navbar {
+
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(19, 19, 19, 0.1);
+}
+
+.nav-link {
+    color: blueviolet !important;
+}
+
+.nav-link:hover {
+    color: rgb(91, 7, 169) !important;
+}
+
+.SpreadWhite {
+    height: 100px;
+    margin-top: 20px;
+    display: block;
+    background-color: rgb(251, 250, 250);
+    border: 2px solid #ffffff;
+    /* Regular border */
+    box-shadow: 0 0 50px 100px rgba(255, 255, 255);
+    /* Spread effect */
+}
+
+.profile {
+    border-radius: 50%;
+    border: 3px solid rgb(55, 61, 74);
+    height: 200px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutdes {
+    width: 500px;
+    margin-left: 100px;
+    font-family: 'Lato', sans-serif;
+    color: rgb(55, 61, 74);
+}
+
+.aboutdes h3 {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: 800;
+    color: rgb(55, 61, 74);
+    font-size: 50px;
+}
+
+.skills p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(55, 61, 74);
+    text-align: center;
+}
+
+.skills h3 {
+    text-align: center;
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: 800;
+    color: rgb(55, 61, 74);
+    font-size: 50px;
+}
+
+.mt-15 {
+    margin-top: 150px;
+}
+
+.outlineskill {
+    width: 100px !important;
+}
+
+.card-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.cardCus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.cardCus img {
+    max-width: 75px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.cardCus h4 {
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: rgb(36, 72, 151);
+}
+
+.cardCus p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+.projectImg {
+    width: 500px;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.project ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+
+}
+
+.projectCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #c1c1c1;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 50px;
+    transition: transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prodes {
+    width: 600px;
+    padding: 15px;
+}
+
+
+.projectCardsGroup {
+
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.projectCard h3 {
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-weight: 800;
+    color: rgb(69, 128, 255);
+    font-size: 30px;
+}
+
+.projectCard p {
+    font-size: 16px;
+    color: #666;
+    text-align: justify;
+}
+
+.projectCard li {
+    font-size: 15px;
+    color: #666;
+    text-align: justify;
+}
+
+.gitbtn {
+    width: 30px;
+    margin-right: 3px;
+}
+
+.gitbotton {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 8px 15px;
+    border-style: none;
+    border-radius: 5px;
+
+    transition: border 0.3s ease;
+}
+
+.gitbotton:hover {
+    border: 4px solid rgb(107, 153, 251);
+}
+
+.btndiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    /* border: 2px #000000 solid; */
+}
+
+.imgw {
+    width: 170px;
+}
+.imgcar {
+    width: 300px;
+    border-radius: 10px;
+}
+.btndiv a {
+    text-decoration: none;
+}
+
+.projectCard:hover {
+    /* box-shadow: 0px 5px 30px 2px rgb(55, 61, 7 */
+
+    transform: scale(1.03);
+    color: white;
+    /* Optional: Adjust text color for better readability */
+}
+
+
+
+.cardCus.in-view {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.cardCus:hover {
+    transform: scale(1.05);
+}
+
+
+.nav-link.active,
+.nav-link:focus,
+.nav-link:hover {
+    color: blueviolet !important;
+    /* Change to your desired active link color */
+    font-weight: bold;
+}
+
+.btn-outline-light.active,
+.btn-outline-light:focus,
+.btn-outline-light:hover {
+    color: blueviolet;
+    border-color: blueviolet;
+}
+
+/* Timeline container */
+.education-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* Timeline styling */
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    /* Distance from the left */
+}
+
+/* Timeline dots */
+.timeline-dot {
+    position: relative;
+    left: -55px;
+    /* Adjust to align with the timeline line */
+    top: 28px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    z-index: 2;
+    /* Adjust to your preferred color */
+}
+
+/* Timeline line */
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    /* Adjust to align with the timeline dots */
+    top: 28px;
+    /* Aligns the start of the line with the center of the dot */
+    width: 1px;
+    height: 100%;
+    background-color: #ccc;
+    /* Dotted line color */
+    z-index: -1;
+}
+
+/* Timeline content */
+.timeline-content {
+    margin-left: 30px;
+    /* Distance from the timeline line */
+    padding-left: 20px;
+    /* Padding inside the timeline content */
+}
+
+/* Timeline item spacing */
+.timeline-item {
+    margin-bottom: 40px;
+    /* Adjust the spacing between timeline items */
+}
+
+/* Education details heading */
+.timeline-content h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* Education details */
+.timeline-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Timeline Mobile view */
+@media (max-width: 768px) {
+
+    .timeline {
+        padding-left: 20px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .timeline-dot {
+        left: -30px;
+        /* Adjust position of timeline dot */
+        top: 20px;
+    }
+
+    .timeline-item::before {
+        left: 0;
+        /* Adjust position of timeline line */
+    }
+
+    .timeline-content {
+        margin-left: 10px;
+        /* Adjust margin for smaller screens */
+        padding-left: 10px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .timeline-item {
+        margin-bottom: 30px;
+        /* Adjust spacing for smaller screens */
+    }
+
+    .timeline-content h3 {
+        font-size: 20px;
+        /* Adjust heading font size for smaller screens */
+    }
+
+    .timeline-content p {
+        font-size: 14px;
+        /* Adjust paragraph font size for smaller screens */
+    }
+}
+
+
+/* styles for project card for smaller devices */
+
+
+/* Media Query for Phones and Smaller Devices */
+@media (max-width: 576px) {
+    
+    .name {
+        font-family: "Baloo Paaji 2", sans-serif;
+        font-weight: 800;
+        color: rgb(55, 61, 74);
+        font-size: 50px;
+
+    }
+
+    .namesec {
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hi {
+        font-size: 40px;
+        color: rgb(96, 102, 118);
+    }
+
+    .flexheader {
+        width: 80%;
+        margin-top: 260px;
+
+    }
+
+    .infostu {
+        font-size: 12px;
+        font-weight: 50;
+        letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.5;
+        color: rgb(55, 61, 74);
+    }
+
+    .lightingbg {
+        background-position: center;
+        /* Center the image */
+    }
+
+    .projectCard {
+        padding: 15px;
+    }
+
+    .prodes {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .projectCard h3 {
+        font-size: 20px;
+        /* Decrease font size for better readability */
+    }
+
+    .projectCard p,
+    .projectCard li {
+        font-size: 13px;
+        /* Decrease font size for better readability */
+    }
+
+    .gitbtn {
+        width: 20px;
+        margin-right: 3px;
+    }
+
+    .gitbotton {
+        display: flex;
+        align-items: center;
+        background-color: #000000;
+        color: white;
+        padding: 8px 15px;
+        border-style: none;
+        border-radius: 5px;
+        font-size: 10px;
+
+        transition: border 0.3s ease;
+    }
+
+    .projectImg {
+        width: auto;
+    }
+
+    .gitbotton:hover {
+        border: 4px solid rgb(107, 153, 251);
+    }
+
+    .carowidth {
+        width: 300px;
+    }
+
+    .imgcar {
+        width: 60%;
+    }
+    .imgw{
+        width: 60%;
+    }
+
+    .btndiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 60px;
+        /* border: 2px #000000 solid; */
+    }
+}
+
+/* contact */
+.contactContainer{
+    background-color:  #6a1b9a;
+    padding: 50px;
+}
+
+.contact-form-container {
+    max-width: 600px;
+    width: 50%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(19, 19, 19, 0.1);
+}
+.iconw{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    padding: 5px;
+   backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 10px;
+    box-shadow: 0 4px 5px rgba(19, 19, 19, 0.1);
+}
+
+.contact-form-container h1 {
+    font-size: 2em;
+    color: #6a1b9a;
+    margin-bottom: 20px;
+}
+
+.contact-form-container h2 {
+    font-size: 1.2em;
+    color: #6a1b9a;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    flex: 1;
+    margin-right: 5px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #6a1b9a;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.contactflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactlinks{
+    width: 50%;
+}
+.contactinfo{
+    width: 50%;
+    display: flex;
+    font-size: 16px;
+    color: #fffbfb;
+    text-align: justify; 
+    margin-bottom: 10px; 
+}
+@media (max-width: 992px) {
+    .contactlinks{
+        width: 97%;
+    }
+    .contactinfo{
+        width: 97%;
+        display: flex;
+        font-size: 16px;
+        color: #fffbfb;
+        text-align: justify; 
+        margin-bottom: 10px; 
+    }
+    .contactflex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-form-container{
+        margin-top: 5px;
+        width: 97%;
+    }
+    .skills p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(55, 61, 74);
+        text-align: center;
+    }
+    
+    .skills h3 {
+        text-align: center;
+        font-family: "Baloo Paaji 2", sans-serif;
+        font-weight: 800;
+        color: rgb(55, 61, 74);
+        font-size: 40px;
+    }
+    /* timeline */
+    .education-container {
+
+        width: 80%;
+    
+    }
+
+    /* timeline */
+
+    .navigationBar{
+        position: absolute;
+        top: 10px;
+        width: 100%;
+    }
+    .SpreadWhite {
+        height: 100px;
+        margin-top: 20px;
+        display: block;
+        background-color: rgb(251, 250, 250);
+        border: 2px solid #ffffff;
+        /* Regular border */
+        box-shadow: 0 0 50px 100px rgba(255, 255, 255);
+        /* Spread effect */
+    }
+    
+    .profile {
+        border-radius: 50%;
+        border: 3px solid rgb(55, 61, 74);
+        height: 200px;
+    }
+    
+    .about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .aboutdes {
+        text-align: center;
+        margin-left: 0;
+        width: 80%;
+        font-family: 'Lato', sans-serif;
+        color: rgb(55, 61, 74);
+        
+    }
+     
+    .aboutdes p{
+        text-align: justify;
+      
+        
+    }
+    
+    .aboutdes h3 {
+        font-family: "Baloo Paaji 2", sans-serif;
+        font-weight: 800;
+        color: rgb(55, 61, 74);
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .name {
+        font-family: "Baloo Paaji 2", sans-serif;
+        font-weight: 800;
+        color: rgb(55, 61, 74);
+        font-size: 50px;
+
+    }
+
+    .namesec {
+    
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hi {
+        font-size: 40px;
+        color: rgb(96, 102, 118);
+    }
+
+    .flexheader {
+        width: 80%;
+        margin-top: 200px;
+
+    }
+
+    .infostu {
+        font-size: 12px;
+        font-weight: 50;
+        letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.5;
+        color: rgb(55, 61, 74);
+    }
+
+    .lightingbg {
+        background-position: center;
+
+        /* Center the image */
+    }
+
+    .projectCardsGroup {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 10px;
+    }
+
+    .prodes {
+        width: 90%;
+        padding: 5px;
+    }
+
+    .projectCard {
+        flex-direction: column;
+        /* Stack content normally */
+    }
+
+    .imgw {
+        max-width: 45%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        /* Adjust image width to fit smaller screens */
+    }
+
+    .imgcar {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-width: 100%;
+        /* Adjust image width to fit smaller screens */
+    }
+}
