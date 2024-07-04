@@ -738,6 +738,7 @@ footer p {
     }
     
     .about {
+        margin-top: -150px;
         width: 100%;
         display: flex;
         flex-direction: column;
