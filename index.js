@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 document.addEventListener('DOMContentLoaded', function () {
     var navbarToggler = document.querySelector('.navbar-toggler');
-    var navbarLinks = document.querySelectorAll('.navbar-nav li a, .navbar-nav li button');
+    var navbarLinks = document.querySelectorAll('.navbar-nav li a');
     var navbarCollapse = document.getElementById('navbarSupportedContent');
 
     navbarLinks.forEach(function(navbarLink) {
