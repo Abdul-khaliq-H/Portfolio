@@ -849,7 +849,11 @@ footer p {
 
     .projectCard {
         flex-direction: column;
+
         /* Stack content normally */
+    }
+    .carcard{
+        flex-direction: column-reverse;
     }
 
     .imgw {
