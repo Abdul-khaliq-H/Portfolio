@@ -36,22 +36,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // jQuery
 
-$(document).ready(function() {
-    $(".nav-link").on("click", function() {
-        // Remove active class from all nav links
-        $(".nav-link").removeClass("active");
-        
-        // Add active class to the clicked nav link
-        $(this).addClass("active");
-    });
 
-    // Handling the certifications button separately
-    $("#certificationsBtn").on("click", function() {
-        // Add active class to the button
-        $(this).toggleClass("active");
+
+document.addEventListener('DOMContentLoaded', function () {
+    var navbarToggler = document.querySelector('.navbar-toggler');
+    var navbarLinks = document.querySelectorAll('.navbar-nav li a, .navbar-nav li button');
+    var navbarCollapse = document.getElementById('navbarSupportedContent');
+
+    navbarLinks.forEach(function(navbarLink) {
+        navbarLink.addEventListener('click', function () {
+            if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                var collapse = new bootstrap.Collapse(navbarCollapse);
+                collapse.hide();
+            }
+        });
     });
 });
-
 
 
 
