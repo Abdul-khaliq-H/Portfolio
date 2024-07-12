@@ -1,3 +1,29 @@
+.c2{
+    display: inline-block;
+    margin-top: 5%;
+}
+.typed-out{
+    font-weight: 50;
+    letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+    color: rgb(55, 61, 74);
+    overflow: hidden;
+    border-right: .15em solid rgb(173, 87, 253);
+    white-space: nowrap;
+    animation: 
+      typing 3s steps(150, end) forwards,
+      blinking .75s infinite;
+    width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100%; }
+}
+@keyframes blinking {
+  from { border-color: transparent }
+  to { border-color: rgb(164, 66, 255); }
+}
 .navCon {
     background-color: #000000;
 }
@@ -27,7 +53,7 @@ body {
 
 .hi {
     font-size: 60px;
-    color: rgb(96, 102, 118);
+    color: rgb(104, 111, 128);
 }
 
 .flexheader {
@@ -45,6 +71,8 @@ body {
 }
 
 .visitbtn {
+    
+    display: block;
     border-radius: 40px;
     height: 50px;
     padding: 8px 15px;
@@ -65,13 +93,8 @@ body {
 }
 
 .lightingbg {
-    background-position: center;
-    /* Center the image */
-    background-image: url('assets/bluelight.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    /* Center the image */
+
+    background-image: linear-gradient(rgb(88, 111, 151),white);
 }
 
 .navbar {
@@ -725,9 +748,9 @@ footer p {
         margin-top: 20px;
         display: block;
         background-color: rgb(251, 250, 250);
-        border: 2px solid #fafafa;
+        border: 2px solid #ffffff;
         /* Regular border */
-        box-shadow: 0 0 50px 100px rgba(250, 250, 250);
+        box-shadow: 0 0 50px 100px rgba(255, 255, 255);
         /* Spread effect */
     }
     
@@ -738,7 +761,6 @@ footer p {
     }
     
     .about {
-        margin-top: -150px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -842,4 +864,3 @@ footer p {
         /* Adjust image width to fit smaller screens */
     }
 }
-
