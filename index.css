@@ -862,7 +862,7 @@ footer p {
 }
 
 /* Keyframes for random movement within a 300px radius */
-@keyframes move1 {
+/* @keyframes move1 {
     0% {
         top: 10%;
         left: 10%;
@@ -980,7 +980,7 @@ footer p {
         top: calc(85% + 300px * (random() - 0.5));
         left: calc(70% + 300px * (random() - 0.5));
     }
-}
+} */
 
 @media (max-width: 992px) {
     .contactlinks {
@@ -1215,4 +1215,16 @@ footer p {
         overflow: hidden;
         border-radius: 30px;
     }
+}
+.ab{
+     /* Change this to the text color you want */
+    text-shadow:
+        /* -1px -1px 0 rgb(91, 114, 153),
+         1px -1px 0 rgb(91, 114, 153),
+        -1px  1px 0 rgb(91, 114, 153),
+         1px  1px 0 rgb(91, 114, 153); */
+        -1px -1px 0 blueviolet,
+         1px -1px 0 blueviolet,
+        -1px  1px 0 blueviolet,
+         1px  1px 0 blueviolet;
 }
