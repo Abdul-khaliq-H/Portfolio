@@ -770,7 +770,9 @@ footer p {
     overflow: hidden;
     border-radius: 30px;
 }
-
+.navigationBarFormobile{
+    display: none
+}
 .feathered-div {
     position: absolute;
     width: 200px;
@@ -1030,9 +1032,27 @@ footer p {
     /* timeline */
 
     .navigationBar {
+
         position: absolute;
         top: 10px;
         width: 100%;
+        display: none
+    }
+    .navigationBarFormobile{
+        display: block;
+        position: fixed;
+        top: 10px;
+        width: 100%;
+        margin-top: 10px;
+        z-index: 3;
+    }
+    .navbar {
+
+        backdrop-filter: blur(10px);
+        border: 3px solid rgba(2, 2, 2, 0.1);
+        background-color: rgba(187, 187, 187, 0.486);
+        border-radius: 20px;
+        box-shadow: 0 4px 5px rgba(19, 19, 19, 0.1);
     }
 
     .SpreadWhite {
