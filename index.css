@@ -1,9 +1,9 @@
-.c2{
+.c2 {
     display: inline-block;
     margin-top: 5%;
 }
 
-.typed-out{
+.typed-out {
     font-size: 97%;
     font-weight: 50;
     letter-spacing: calc(1px + (7 - 1) * ((100vw - 300px) / (1300 - 300)));
@@ -13,19 +13,32 @@
     overflow: hidden;
     border-right: .15em solid rgb(173, 87, 253);
     white-space: nowrap;
-    animation: 
-      typing 3s steps(150, end) forwards,
-      blinking .75s infinite;
+    animation:
+        typing 3s steps(150, end) forwards,
+        blinking .75s infinite;
     width: 0;
 }
+
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100%; }
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%;
+    }
 }
+
 @keyframes blinking {
-  from { border-color: transparent }
-  to { border-color: rgb(164, 66, 255); }
+    from {
+        border-color: transparent
+    }
+
+    to {
+        border-color: rgb(164, 66, 255);
+    }
 }
+
 .navCon {
     background-color: #000000;
 }
@@ -73,7 +86,7 @@ body {
 }
 
 .visitbtn {
-    
+
     display: block;
     border-radius: 40px;
     height: 50px;
@@ -96,7 +109,7 @@ body {
 
 .lightingbg {
 
-    background-image: linear-gradient(rgb(88, 111, 151),white);
+    background-image: linear-gradient(rgb(88, 111, 151), white);
 }
 
 .navbar {
@@ -317,10 +330,12 @@ body {
 .imgw {
     width: 170px;
 }
+
 .imgcar {
     width: 300px;
     border-radius: 10px;
 }
+
 .btndiv a {
     text-decoration: none;
 }
@@ -483,7 +498,7 @@ body {
 
 /* Media Query for Phones and Smaller Devices */
 @media (max-width: 576px) {
-    
+
     .name {
         font-family: "Baloo Paaji 2", sans-serif;
         font-weight: 800;
@@ -577,7 +592,8 @@ body {
     .imgcar {
         width: 60%;
     }
-    .imgw{
+
+    .imgw {
         width: 60%;
     }
 
@@ -592,8 +608,8 @@ body {
 }
 
 /* contact */
-.contactContainer{
-    background-color:  rgb(72, 93, 130);
+.contactContainer {
+    background-color: rgb(72, 93, 130);
     padding: 50px;
 }
 
@@ -611,12 +627,13 @@ body {
     border-radius: 20px;
     box-shadow: 0 4px 5px rgba(19, 19, 19, 0.1);
 }
-.iconw{
+
+.iconw {
     width: 40px;
     height: 40px;
     margin-right: 20px;
     padding: 5px;
-   backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     border: 3px solid rgba(255, 255, 255, 0.1);
     background-color: rgba(255, 255, 255, 0.13);
     border-radius: 10px;
@@ -680,50 +697,321 @@ footer p {
     text-decoration: none;
     font-size: 1.5em;
 }
-.contactflex{
+
+.contactflex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contactlinks{
+
+.contactlinks {
     width: 50%;
 }
-.contactinfo{
+
+.contactinfo {
     width: 50%;
     display: flex;
     font-size: 16px;
     color: #fffbfb;
-    text-align: justify; 
-    margin-bottom: 10px; 
+    text-align: justify;
+    margin-bottom: 10px;
 }
+
+
+
+/* Blender Project */
+
+.blendCard img {
+
+    width: 50%;
+    height: auto;
+    /* Maintain aspect ratio */
+    max-height: 70%;
+    /* Adjust as needed */
+    object-fit: cover;
+    /* Ensure images cover the specified area without stretching */
+    border-radius: 10px;
+    /* Optional: add some rounding to the image corners */
+}
+
+.blurFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     /* Ensure the flex container takes the full height of the viewport */
+}
+
+.blendCardGroups {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blendCard {
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.13);
+    border-radius: 20px;
+    box-shadow: 0 4px 5px rgba(19, 19, 19, 0.1);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.blurContainer {
+    background-color: black;
+    width: 80%;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.feathered-div {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    filter: blur(150px);
+}
+
+.feathered-div1 {
+    background-color: rgb(255, 0, 46);
+    box-shadow: 0 0 50px 90px rgb(255, 0, 46);
+    top: 10%;
+    left: 10%;
+    animation: move1 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div2 {
+    background-color: rgb(209, 203, 209);
+    box-shadow: 0 0 50px 90px rgb(209, 203, 209);
+    top: 20%;
+    left: 70%;
+    animation: move2 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div3 {
+    background-color: rgb(250, 0, 255);
+    box-shadow: 0 0 50px 90px rgb(250, 0, 255);
+    top: 50%;
+    left: 30%;
+    animation: move3 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div4 {
+    background-color: rgb(19, 0, 255);
+    box-shadow: 0 0 50px 90px rgb(19, 0, 255);
+    top: 60%;
+    left: 60%;
+    animation: move4 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div5 {
+    background-color: rgb(106, 255, 93);
+    box-shadow: 0 0 50px 90px rgb(106, 255, 93);
+    top: 80%;
+    left: 20%;
+    animation: move5 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div6 {
+    background-color: rgb(0, 255, 255);
+    box-shadow: 0 0 50px 90px rgb(0, 255, 255);
+    top: 40%;
+    left: 80%;
+    animation: move6 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div7 {
+    background-color: rgb(255, 165, 0);
+    box-shadow: 0 0 50px 90px rgb(255, 165, 0);
+    top: 15%;
+    left: 50%;
+    animation: move7 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div8 {
+    background-color: rgb(144, 238, 144);
+    box-shadow: 0 0 50px 90px rgb(144, 238, 144);
+    top: 30%;
+    left: 10%;
+    animation: move8 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div9 {
+    background-color: rgb(255, 20, 147);
+    box-shadow: 0 0 50px 90px rgb(255, 20, 147);
+    top: 70%;
+    left: 40%;
+    animation: move9 0.5s infinite alternate ease-in-out;
+}
+
+.feathered-div10 {
+    background-color: rgb(72, 61, 139);
+    box-shadow: 0 0 50px 90px rgb(72, 61, 139);
+    top: 85%;
+    left: 70%;
+    animation: move10 0.5s infinite alternate ease-in-out;
+}
+
+/* Keyframes for random movement within a 300px radius */
+@keyframes move1 {
+    0% {
+        top: 10%;
+        left: 10%;
+    }
+
+    100% {
+        top: calc(10% + 300px * (random() - 0.5));
+        left: calc(10% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move2 {
+    0% {
+        top: 20%;
+        left: 70%;
+    }
+
+    100% {
+        top: calc(20% + 300px * (random() - 0.5));
+        left: calc(70% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move3 {
+    0% {
+        top: 50%;
+        left: 30%;
+    }
+
+    100% {
+        top: calc(50% + 300px * (random() - 0.5));
+        left: calc(30% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move4 {
+    0% {
+        top: 60%;
+        left: 60%;
+    }
+
+    100% {
+        top: calc(60% + 300px * (random() - 0.5));
+        left: calc(60% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move5 {
+    0% {
+        top: 80%;
+        left: 20%;
+    }
+
+    100% {
+        top: calc(80% + 300px * (random() - 0.5));
+        left: calc(20% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move6 {
+    0% {
+        top: 40%;
+        left: 80%;
+    }
+
+    100% {
+        top: calc(40% + 300px * (random() - 0.5));
+        left: calc(80% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move7 {
+    0% {
+        top: 15%;
+        left: 50%;
+    }
+
+    100% {
+        top: calc(15% + 300px * (random() - 0.5));
+        left: calc(50% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move8 {
+    0% {
+        top: 30%;
+        left: 10%;
+    }
+
+    100% {
+        top: calc(30% + 300px * (random() - 0.5));
+        left: calc(10% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move9 {
+    0% {
+        top: 70%;
+        left: 40%;
+    }
+
+    100% {
+        top: calc(70% + 300px * (random() - 0.5));
+        left: calc(40% + 300px * (random() - 0.5));
+    }
+}
+
+@keyframes move10 {
+    0% {
+        top: 85%;
+        left: 70%;
+    }
+
+    100% {
+        top: calc(85% + 300px * (random() - 0.5));
+        left: calc(70% + 300px * (random() - 0.5));
+    }
+}
+
 @media (max-width: 992px) {
-    .contactlinks{
+    .contactlinks {
         width: 97%;
     }
-    .contactinfo{
+
+    .contactinfo {
         width: 97%;
         display: flex;
         font-size: 16px;
         color: #fffbfb;
-        text-align: justify; 
-        margin-bottom: 10px; 
+        text-align: justify;
+        margin-bottom: 10px;
     }
-    .contactflex{
+
+    .contactflex {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .contact-form-container{
+
+    .contact-form-container {
         margin-top: 5px;
         width: 97%;
     }
+
     .skills p {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: rgb(55, 61, 74);
         text-align: center;
     }
-    
+
     .skills h3 {
         text-align: center;
         font-family: "Baloo Paaji 2", sans-serif;
@@ -731,20 +1019,22 @@ footer p {
         color: rgb(55, 61, 74);
         font-size: 40px;
     }
+
     /* timeline */
     .education-container {
 
         width: 80%;
-    
+
     }
 
     /* timeline */
 
-    .navigationBar{
+    .navigationBar {
         position: absolute;
         top: 10px;
         width: 100%;
     }
+
     .SpreadWhite {
         height: 100px;
         margin-top: 20px;
@@ -755,13 +1045,13 @@ footer p {
         box-shadow: 0 0 50px 100px rgba(255, 255, 255);
         /* Spread effect */
     }
-    
+
     .profile {
         border-radius: 50%;
         border: 3px solid rgb(55, 61, 74);
         height: 200px;
     }
-    
+
     .about {
         width: 100%;
         display: flex;
@@ -769,22 +1059,22 @@ footer p {
         justify-content: center;
         align-items: center;
     }
-    
+
     .aboutdes {
         text-align: center;
         margin-left: 0;
         width: 80%;
         font-family: 'Lato', sans-serif;
         color: rgb(55, 61, 74);
-        
+
     }
-     
-    .aboutdes p{
+
+    .aboutdes p {
         text-align: justify;
-      
-        
+
+
     }
-    
+
     .aboutdes h3 {
         font-family: "Baloo Paaji 2", sans-serif;
         font-weight: 800;
@@ -803,7 +1093,7 @@ footer p {
     }
 
     .namesec {
-    
+
         padding-top: 10px;
         display: flex;
         justify-content: center;
@@ -852,7 +1142,8 @@ footer p {
 
         /* Stack content normally */
     }
-    .carcard{
+
+    .carcard {
         flex-direction: column-reverse;
     }
 
@@ -868,5 +1159,40 @@ footer p {
         margin-bottom: 15px;
         max-width: 100%;
         /* Adjust image width to fit smaller screens */
+    }
+    /* blend projects */
+    .blendCard img {
+
+        width: 50%;
+        height: auto;
+        /* Maintain aspect ratio */
+        max-height: 70%;
+        /* Adjust as needed */
+        object-fit: cover;
+        /* Ensure images cover the specified area without stretching */
+        border-radius: 10px;
+        /* Optional: add some rounding to the image corners */
+    }
+    .blendCard {
+        margin-top: 20px;
+        backdrop-filter: blur(10px);
+        border: 3px solid rgba(255, 255, 255, 0.1);
+        background-color: rgba(255, 255, 255, 0.13);
+        border-radius: 20px;
+        box-shadow: 0 4px 5px rgba(19, 19, 19, 0.1);
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .blurContainer {
+        background-color: black;
+        width: 90%;
+        padding: 50px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
     }
 }
